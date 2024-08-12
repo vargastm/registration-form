@@ -1,0 +1,15 @@
+@media(max-width: 767px) {
+  #app {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  main {
+    order: 2;
+  }
+
+  body, #app {
+    overflow: auto;
+  }
+}
